@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 43 61" version="1.1" viewBox="0 0 43 61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#a);}
+</style>
+<title>Asset 11</title>
+<path class="st0" d="m21.5 43c0.4 0 0.7 0.2 0.9 0.5l8.2 15.6c0.2 0.4 0.1 0.9-0.2 1.2s-0.8 0.4-1.2 0.2l-7.7-4-7.7 4c-0.5 0.3-1.1 0.1-1.4-0.4-0.2-0.3-0.2-0.6 0-0.9l8.2-15.6c0.2-0.4 0.5-0.6 0.9-0.6zm5.8 14.3-5.8-11.1-5.8 11.1 5.3-2.8c0.3-0.2 0.6-0.2 0.9 0l5.4 2.8z"/>
+<linearGradient id="a" x1="6.2997" x2="36.7" y1="55.595" y2="25.185" gradientTransform="matrix(1 0 0 -1 0 61.89)" gradientUnits="userSpaceOnUse">
+	<stop stop-color="#5A6CF1" offset="0"/>
+	<stop stop-color="#3C31C8" offset="1"/>
+</linearGradient>
+<path class="st1" d="m21.5 7.2c7.9 0 14.3 6.4 14.3 14.3s-6.4 14.3-14.3 14.3-14.3-6.4-14.3-14.3 6.4-14.3 14.3-14.3zm0 35.8c11.9 0 21.5-9.6 21.5-21.5s-9.6-21.5-21.5-21.5-21.5 9.6-21.5 21.5 9.6 21.5 21.5 21.5z"/>
+<path class="st0" d="m21.5 22.5c-3 0-5.4-2.1-5.4-4.7s2.4-4.8 5.4-4.8 5.4 2.1 5.4 4.7h-2c0-1.5-1.5-2.7-3.4-2.7s-3.4 1.2-3.4 2.7 1.5 2.7 3.4 2.7v2.1z"/>
+<path class="st0" d="m21.5 30c-3 0-5.4-2.1-5.4-4.7h2c0 1.5 1.5 2.7 3.4 2.7s3.4-1.2 3.4-2.7-1.5-2.7-3.4-2.7v-2c3 0 5.4 2.1 5.4 4.7s-2.4 4.7-5.4 4.7z"/>
+<rect class="st0" x="20.5" y="11.2" width="2" height="20.6"/>
+</svg>

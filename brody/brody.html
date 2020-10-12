@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<title>Brody.ai</title>
+<head>
+    <link rel="stylesheet" href="../brody-min.css"/>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Start of  Zendesk Widget script -->
+	<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d3776a02-c494-4773-9067-0050269a0f3f"></script>
+</head>
+
+<body>
+    <div class="landing landing-main bg-light">
+        <div class="header">
+			<a class="header__image" href="#">
+            	<img src="../img/main/logo-white.svg" alt/>
+			</a>
+            <div class="header__nav-wrapper">
+				<ul class="header__nav">
+					<li class="header__nav-link"><a href="brody_hiw.html">How it works</a></li>
+					<li class="header__nav-link"><a href="brody_telesales.html">Telesales</a></li>
+					<li class="header__nav-link"><a href="https://mailmanager.tech" target="_blank">Mail Manager</a></li>
+					<li class="header__nav-link"><a href="https://app.datasets.brody.ai">Datasets & API</a></li>
+					<li class="header__nav-link"><a href="brody_aboutus.html">About Us</a></li>
+				</ul>
+				<button class="button btnCalendly">Schedule Demo</button>
+			</div>           
+			
+			<div class="hamburger-menu">
+  				<div class="menu__btn">
+    				<span></span>
+  				</div>
+			
+				<div class="navMenu">
+					<ul>
+						<li class="navMenu__item"><a href="brody_hiw.html">How It Works</a></li>
+                        <li class="navMenu__item"><a href="brody_telesales.html">Telesales</a></li>
+						<li class="navMenu__item"><a href="https://mailmanager.tech" target="_blank">Mail Manager</a></li>
+						<li class="navMenu__item"><a href="https://app.datasets.brody.ai">Datasets and API</a></li>
+						<li class="navMenu__item"><a href="brody_aboutus.html">About Us</a></li>
+						<li class="navMenu__item"><button class="button btnCalendly">Schedule A Demo</button></li>
+					</ul>
+				</div>
+			</div>
+        </div>
+		
+		<!-- Calendly inline widget begin -->
+		<div id="cModal" class="caledlyModal">
+			<div class="caledlyModal_container">
+				<div class="caledlyModal__imgWrapper">
+					<img src="../img/main/logo.png" alt>
+				</div>
+				<div class="caledlyModal__content">
+					<div class="caledlyModal__content__left">
+						<img src="../img/main/logo-white.svg" alt>
+					</div>
+					<div class="caledlyModal__content__form" id="caledlyPopup_form">
+						<span id="closeCalendly">x</span>
+						<div class="content__form__wrapper" id="caledlyPopup_form__wrapper">
+							<p class="caledly__text">How long do you need?</p>
+							<ul class="duration-wrapper">
+								<li>
+									<input type="radio" id="choiceOne" value="60" name="calendlyDur" required>
+      								<label for="choiceOne" class="caledlyChoice-block">1 hour</label>
+								</li>
+								<li>
+									<input type="radio" id="choiceTwo" value="30" name="calendlyDur">
+      								<label for="choiceTwo" class="caledlyChoice-block">30 minutes</label>
+								</li>
+								<li>
+									<input type="radio" id="choiceThree" value="15" name="calendlyDur" checked>
+      								<label for="choiceThree" class="caledlyChoice-block">15 minutes</label>
+								</li>
+							</ul>
+							<p class="caledly__text">Let us know:</p>
+							<div class="caledlyInf">
+								<input type="text" id="caledlyName" name="caledlyName" class="caledly-data" placeholder="Name">
+								<input type="email" id="caledlyEmail" name="caledlyEmail" class="caledly-data" placeholder="Email">
+								<input type="number" id="caledlyTel" name="caledlyTel" class="caledly-data" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+							</div>
+							<div>
+								<button id="scheduleBtn" class="button confirmBtn" onclick="openWidget()">Schedule Demo</button>
+							</div>
+							<a href="#" id="return-href">Back to the main page</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+			
+		</div>
+		
+<!-- Calendly inline widget end -->
+		
+		<!--		Modal Video on click bedin-->
+		<div id="vModal" class="videoModal">
+  			<div class="modal-content">
+    				<video controls="true" preload="auto" id="vModalVideo">
+						<source src="https://storage.googleapis.com/brodyvsl/Brody4K.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<span class="closeVideo">&times;</span>
+  			</div>
+			<div>
+				<button class="button btnCalendly">Schedule Demo</button>
+			</div>
+		</div>
+<!--		Modal Video on click end -->
+
+		<div class="landing-section banner-wrapper bg-black">
+			<div class="container">
+				<div class="banner">
+					<h1 class="title title-l title-centered">Achieve Marketing Nirvana of Timely Personalized Communication With</h1>
+					<img class="banner__logo" src="../img/main/logo-white.svg" alt="brody.ai logo">
+				</div>
+			</div>
+		</div>		
+		<div class="landing-section video-wrapper bg-black" id="main-01">
+			<div class="container">
+				<div class="video">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link active">01 —</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">MARKETING NIRVANA IS JUST BELOW THIS FOLD</h4>
+						<div class="line-grey"></div>
+						<div class="video-play" id="videoStart">
+							<img class="video-play__img" src="../img/main/play-btn.svg" alt>
+							<p>Watch The Video</p>
+						</div>
+						<div class="b-block__content">
+							<div class="b-block__item">
+								<div class="b-block__item__elem">								
+									<h2 class="title title-m">+15 Years</h2>
+									<span class="b-block__elem__text">of data collection</span>
+									<svg class="elem__line1" width="175" height="90" viewBox="0 0 175 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 1L172 1L172 86" stroke="white"/><circle cx="172" cy="87" r="3" fill="white"/>
+									</svg>
+								</div>
+								<div class="b-block__item__elem">								
+									<h2 class="title title-m">1 Trillion</h2>
+									<span class="b-block__elem__text">data points</span>
+									<svg class="elem__line2" width="155" height="6" viewBox="0 0 155 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 3L149 3.00001" stroke="white"/><circle cx="152" cy="3" r="3" fill="white"/>
+									</svg>
+
+								</div>
+							</div>
+							<div class="b-block__item b-block__item_end">
+								<p class="text">brody.ai revolutionizes the world of online marketing. telesales and direct mail, <strong>accelerating your engagement and ECPM</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section www-wrapper" id="main-02">
+			<div class="container">
+				<div class="www www_who">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link active">02 —</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">THE W.W.W. INSIGHT</h4>
+						<h2 class="title title-m title-m_wide title-centered"><strong>It Matters:</strong> Who's your audience, What creative you display and When you deliver the ad.</h2>
+						<div class="b-block__content">
+							<div class="b-block__item b-block__item_mid">
+								<p class="text text_pb">We know this, but the secret to fulfilling these 3 W's has always seemed impossible - until now!</p>
+								<p class="text text_pb">brody.ai combines Natural Language Process (NLP), image analysis, the trillions of data points that we've collected over 15 years, your data points and; pre-built, proven machine learning models to achieve true 1:1 ad personalization.</p>
+							</div>
+							<div class="b-block__item b-block__item_mobile">
+								<div class="mobile-circle www_who">
+									<img src="../img/main/b-circle.svg" alt>
+								</div>
+								<div class="www__change">
+									<div class="www__change__word active"><span>W</span>HO</div>
+									<div class="www__change__word"><span>W</span>HAT</div>
+									<div class="www__change__word"><span>W</span>HEN</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section result-wrapper" id="main-03">
+			<div class="container">
+				<div class="result">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link active">03 —</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">RESULT DRIVEN PLATFORM, READY TO DEPLOY</h4>
+						<h2 class="title title-xl title-centered"><strong><i>Instant</i></strong> Results</h2>
+						<div class="b-block__content">
+							<div class="b-block__item">
+								<div class="b-block__item__elem">
+									<span class="b-block__elem__text">Results are</span>						
+									<h2 class="title title-s">Fast & Quantifiable</h2>
+									<svg class="elem__line3 elem__line3_1" width="130" height="6" viewBox="0 0 130 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 3L124 3.00001" stroke="white"/><circle cx="127" cy="3" r="3" fill="white"/>
+									</svg>
+								</div>
+								<div class="b-block__item__elem">								
+									<h2 class="title title-s">Easy & Painless</h2>
+									<span class="b-block__elem__text">Deployment through our <a href="https://mailmanager.tech" class="mm-link" target="_blank">Mail Manager</a> product.</span>
+									<svg class="elem__line3 elem__line3_2" width="130" height="6" viewBox="0 0 130 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 3L124 3.00001" stroke="white"/><circle cx="127" cy="3" r="3" fill="white"/>
+									</svg>
+								</div>
+							</div>
+							<div class="b-block__item b-block__item_end">
+								<p class="text text_s">Stop wasting time and money struggling to make your new marketing platforms perform, endlessly chasing ROI for yet another billing cycle.</p>
+								<p class="text text_s"><a href="https://mailmanager.tech" class="mm-link" target="_blank">Mail Manager</a> combines the power of brody.ai with a user-friendly, feature-rich, campaign management interface.</p>
+							</div>
+						</div>
+					</div>
+					<div class="result__mini">
+						<div class="result__mini__item">
+							<h4 class="title title-xs title-centered">Mail Manager</h4>
+							<div class="line-grey"></div>
+							<h5 class="suptitle">Integrates with most delivery platforms</h5>
+							<div class="result__mini__item__btn">
+								<a href="https://mailmanager.tech" class="button button_inverse" target="_blank">LEARN ABOUT MAIL MANAGER</a>
+							</div>
+						</div>
+						<div class="result__mini__item">
+							<h4 class="title title-xs title-centered">brody.ai API</h4>
+							<div class="line-grey"></div>
+							<h5 class="suptitle">Access our DataSets and API user interface</h5>
+							<div class="result__mini__item__btn">
+								<a hidden="#" class="button button_inverse" target="_blank">LEARN ABOUT BRODY.AI API</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section emotion-wrapper" id="main-04">
+			<div class="container">
+				<div class="emotion">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link active">04 —</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">NLP PROGRAMMING</h4>
+						<h2 class="title title-m title-m_wide title-centered">Connect With Your Customers On A Deep Emotional Level</h2>
+						<div class="b-block__content">
+							<div class="b-block__item">
+								<p class="text text_s text_pb">With brody.ai, you'll be able to connect with each of your customers. brody.ai learns what each customer's emotional triggers are to generate positive engagement.</p>
+								<p class="text text_s text_pb">brody.ai leverages Natural Language Processing and our emotion machine learning models to discover and suggest highly persuasive subject lines and call to actions.</p>
+								<p class="text text_s text_pb">brody.ai then segments your ads according to each specific user's emotional triggers, allowing you to write personalized marketing campaigns on a mass scale.</p>
+							</div>
+						<div class="b-block__item b-block__item_end">
+							<div class="b-block__item__elem">								
+								<h4 class="title title-xs">Natural Language Processing</h4>
+								<span class="b-block__elem__text b-block__elem__text_s">Discover and suggest highly persuasive subject lines and call to actions.</span>
+							</div>
+							<div class="b-block__item__elem">								
+								<h4 class="title title-xs">Emotion Motion Learning Models</h4>
+								<span class="b-block__elem__text b-block__elem__text_s">brody.ai learns what each customer’s emotional triggers are to generate positive engagement.</span>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section nlp-wrapper" id="main-05">
+			<div class="container">
+				<div class="nlp">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link active">05 —</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">THE SCIENCE FUELING BRODY.AI</h4>
+						<h2 class="title title-l title-centered">Natural Langauge Process</h2>
+						<div class="b-block__content">
+							<div class="b-block__item">
+								<p class="text text_s text_pb">Answering the question of Who, Brody's look-alike model uses Natural Language Process to target search phrases and sites that demonstrate the interest of a group of people.</p>
+								<p class="text text_s text_pb">We obtain the cookies of the users to identify the demographics and input the results into our algorithm and apply machine learning.</p>
+								<p class="text text_s text_pb">The results are applied to the client’s data lake to we extract users who look like people interested in that industry.</p>
+							</div>
+						<div class="b-block__item b-block__item_mid">
+							<div class="b-block__item__elem">								
+								<h4 class="title title-xs">Natural Langage Process</h4>
+								<span class="b-block__elem__text b-block__elem__text_s">Target online search keyword trends, buyer behavior on social networks, and websites that interest the target audience.</span>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section pModel-wrapper" id="main-06">
+			<div class="container">
+				<div class="pModel">
+					<div class="b-block b-block_circle">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link active">06 —</a></li>
+								<li><a href="#main-07" class="b-sidebar__link">07</a></li>
+							</ul>
+						</div>
+						<h4 class="suptitle">THE SCIENCE FUELING BRODY.AI</h4>
+						<h2 class="title title-l title-centered">Natural Langauge Process</h2>
+						<div class="b-block__content">
+							<div class="b-block__item">
+								<p class="text text_s">The Predictive Model is laser targeted and focuses on the three W’s:</p>
+								<ul class="pModel__list">
+									<li class="text text_s"><strong>Who's</strong> your audience</li>
+									<li class="text text_s"><strong>What</strong> creative you display and</li>
+									<li class="text text_s"><strong>When</strong> you deliver the ad.</li>
+								</ul>
+								<p class="text text_s text_pb">Constantly learning, brody's Predictive Model, improves the more it is utilized.</p>
+							</div>
+						<div class="b-block__item b-block__item_mid">
+							<div class="b-block__item__elem">								
+								<h4 class="title title-xs">Predictive Model</h4>
+								<span class="b-block__elem__text b-block__elem__text_s">Brands looking to identity specific users that convert can provide us with conversation data to build a custom look-alike model specific to their products.</span>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section pros-wrapper" id="main-07">
+			<div class="container">
+				<div class="pros">
+					<div class="b-block">
+						<div class="b-sidebar">
+							<ul class="b-sidebar__list">
+								<li><a href="#main-01" class="b-sidebar__link">01</a></li>
+								<li><a href="#main-02" class="b-sidebar__link">02</a></li>
+								<li><a href="#main-03" class="b-sidebar__link">03</a></li>
+								<li><a href="#main-04" class="b-sidebar__link">04</a></li>
+								<li><a href="#main-05" class="b-sidebar__link">05</a></li>
+								<li><a href="#main-06" class="b-sidebar__link">06</a></li>
+								<li><a href="#main-07" class="b-sidebar__link active">07 —</a></li>
+							</ul>
+						</div>
+						<h2 class="title title-m title-centered">Learn more about the science fueling</h2>
+						<img class="pros__logo" src="../img/main/logo-white.svg" alt>
+						<div class="pros__table">
+							<div class="pros__item pros__item-bb pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-1.svg" alt></div>
+								<div class="pros__item__text">IMPROVE ENGAGEMENTS</div>
+							</div>
+							<div class="pros__item pros__item-bb pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-2.svg" alt></div>
+								<div class="pros__item__text">PERSONALIZE CALLS TO ACTION</div>
+							</div>
+							<div class="pros__item pros__item-bb">
+								<div class="pros__item__img"><img src="../img/feature-3.svg" alt></div>
+								<div class="pros__item__text">IMPROVE BRAND REPUTATION</div>
+							</div>
+							<!-- line 2 -->
+							<div class="pros__item pros__item-bb pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-4.svg" alt></div>
+								<div class="pros__item__text">HIGHER ECPM</div>
+							</div>
+							<div class="pros__item pros__item-bb pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-5.svg" alt></div>
+								<div class="pros__item__text">REAL A.I. THAT WORKS</div>
+							</div>
+							<div class="pros__item pros__item-bb">
+								<div class="pros__item__img"><img src="../img/feature-6.svg" alt></div>
+								<div class="pros__item__text">IMPROVE CREATIVITY</div>
+							</div>
+							<!-- line 3 -->
+							<div class="pros__item pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-7.svg" alt></div>
+								<div class="pros__item__text">GENERATE PERSUASIVE SUBJECT LINE</div>
+							</div>
+							<div class="pros__item pros__item-br">
+								<div class="pros__item__img"><img src="../img/feature-8.svg" alt></div>
+								<div class="pros__item__text">LOWER UNSUBSCRIBE RATES</div>
+							</div>
+							<div class="pros__item">
+								<div class="pros__item__img"><img src="../img/feature-9.svg" alt></div>
+								<div class="pros__item__text">SEND LESS, MAKE MORE</div>
+							</div>
+						</div>
+						<div class="pros__btnWrapper">
+							<button class="button button_inverse">SHOW ME HOW BRODY.AI WORKS</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="landing-section cta-wrapper">
+			<div class="container">
+				<div class="cta">
+					<div class="cta__info">
+						<h2 class="cta__info__title">Ready to unleash the <strong>potential</strong> of email marketing with A.I?</h2>
+						<div class="cta__info__block">
+							<div class="cta__info__img"><img src="../img/main/b-circle.svg" alt></div>
+							<div class="cta__info__contact">
+								<p>talk to a human</p>
+								<div class="cta__info__container">
+									<a class="cta__info__link cta__info__link_email" href="mailto:human@brody.ai">human@brody.ai</a>
+									<a class="cta__info__link cta__info__link_fb" href="#" target="_blank">Message us</a></div>
+								</div>							
+						</div>
+					</div>
+					<div id="caledlyFooter_form-wrapper">
+						<form id="caledlyFooter_form">
+							<h2 class="caledlyFooter__title">Schedule A Demo</h2>
+							<p class="caledly__text">How long do you need?</p>
+							<ul class="calelyDur">
+								<li>
+									<input type="radio" id="dur1" value="15" name="calendlyDurFooter" checked>
+									<label for="dur1" class="caledly-choice">15 mins</label>
+								</li>
+								<li>
+									<input type="radio" id="dur2" value="30" name="calendlyDurFooter">
+									<label for="dur2" class="caledly-choice">30 mins</label>
+								</li>
+								<li>
+									<input type="radio" id="dur3" value="60" name="calendlyDurFooter">
+									<label for="dur3" class="caledly-choice">1 hour</label>
+								</li>
+							</ul>
+							<p class="caledly__text">Let us know:</p>
+							<div class="caledlyInf">
+								<input type="text" id="caledlyNameFooter" name="caledlyNameFooter" class="caledly-data" placeholder="Name">
+								<input type="email" id="caledlyEmailFooter" name="caledlyEmailFooter" class="caledly-data" placeholder="Email">
+								<input type="number" id="caledlyTelFooter" name="caledlyTelFooter" class="caledly-data" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+							</div>
+							<button id="scheduleBtnFooter" class="button" onclick="openCalendlyFooter()">Schedule Demo</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line-grey"></div>
+		<footer class="bg-light">
+			<div class="container">
+				<div class="footer">
+					<a class="footer__image" href="#">
+						<img src="../img/main/logo.png" alt/>
+					</a>
+					<ul class="footer__nav">
+						<li class="footer__nav__link"><a href="brody_hiw.html">How it Works</a></li>
+						<li class="footer__nav__link"><a href="https://mailmanager.tech" target="_blank">Mail Manager</a></li>
+						<li class="footer__nav__link"><a href="https://app.datasets.brody.ai">Datasets & API</a></li>
+						<li class="footer__nav__link"><a href="brody_telesales.html">Telesales</a></li>
+						<li class="footer__nav__link"><a href="brody_aboutus.html">About Us</a></li>
+					</ul>
+					<button class="button btnCalendly">Schedule Demo</button>
+				</div>
+				<div class="subfooter">
+					<div class="subfooter__copyright subfooter__text">© 2020 Brody. All Rights Reserved </div>
+					<div class="subfooter__privacy">
+						<a class="subfooter__text" href="#">PRIVACY POLICY</a>
+						<a class="subfooter__text" href="#">Terms & Conditions</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+
+
+		
+
+		
+    </div>
+	
+
+	<script type="text/javascript">
+		
+	// Sidebar settings
+		function addActive(elem) {
+			var a = document.getElementsByClassName("b-sidebar__link");
+			for (i = 0; i < a.length; i++) {
+				a[i].classList.remove('active')
+			}
+			elem.classList.add('active');
+		}
+		
+	// WWW  words changing
+		let www = document.getElementsByClassName('www')[0];
+		let mobwww = document.getElementsByClassName('mobile-circle')[0];
+		let words = document.getElementsByClassName('www__change__word');
+		let activeWord;
+		function wChange() {
+			for(let i=0;i<words.length;i++){
+				if(words[i].classList.contains('active')){
+					activeWord = i;
+				}
+			}
+			if (window.innerWidth < 1161) {
+				if(activeWord==0){
+					words[0].classList.remove('active');
+					words[1].classList.add('active');
+					mobwww.classList.remove('www_who');
+					mobwww.classList.add('www_what');
+				}
+				else if(activeWord==1){
+					words[1].classList.remove('active');
+					words[2].classList.add('active');
+					mobwww.classList.remove('www_what');
+					mobwww.classList.add('www_when');
+				}
+				else{
+					words[2].classList.remove('active');
+					words[0].classList.add('active');
+					mobwww.classList.remove('www_when');
+					mobwww.classList.add('www_who');
+				}
+			}
+			else{
+				if(activeWord==0){
+					words[0].classList.remove('active');
+					words[1].classList.add('active');
+					www.classList.remove('www_who');
+					www.classList.add('www_what');
+				}
+				else if(activeWord==1){
+					words[1].classList.remove('active');
+					words[2].classList.add('active');
+					www.classList.remove('www_what');
+					www.classList.add('www_when');
+				}
+				else{
+					words[2].classList.remove('active');
+					words[0].classList.add('active');
+					www.classList.remove('www_when');
+					www.classList.add('www_who');
+				}
+			}
+		}
+		setInterval(wChange, 2300)
+		
+	// dropdown menu
+		let menuBtn = document.getElementsByClassName('menu__btn')[0];
+		let navMenu = document.getElementsByClassName('navMenu')[0];
+		let landing = document.querySelectorAll('.landing-section');
+		menuBtn.addEventListener('click',function(){
+			if(menuBtn.classList.contains('clicked')){
+				menuBtn.classList.remove('clicked');
+				navMenu.classList.remove('clicked');
+			}
+			else{
+				menuBtn.classList.add('clicked');
+				navMenu.classList.add('clicked');
+			}
+		});
+		
+		landing.forEach(item => {
+		  item.addEventListener('click',function(){
+			if(event.target !== navMenu && event.target !== menuBtn && navMenu.classList.contains('clicked')){
+				menuBtn.classList.remove('clicked');
+				navMenu.classList.remove('clicked');
+			}
+			});
+		});
+		
+	// Video Modal Apperance
+		let videoWrapper = document.getElementById('vModal');
+		let videoStart = document.getElementById('videoStart');
+		let video = document.getElementById('vModalVideo');
+		let videoClose = document.getElementsByClassName('closeVideo')[0];
+		videoStart.addEventListener('click',function(){
+			videoWrapper.style.display = 'flex';
+			video.play();
+		});
+		videoClose.addEventListener('click',function(){
+			videoWrapper.style.display = 'none';
+			video.pause();
+		});
+		videoWrapper.addEventListener('click',function(){
+			videoWrapper.style.display = 'none';
+			video.pause();
+		});
+		
+	// Calendly Modal Appearance
+		
+		let calendlyModal = document.getElementById("cModal");
+		let calendlyBtns = document.querySelectorAll(".btnCalendly");	
+		calendlyBtns.forEach(function(item){
+			item.addEventListener('click', function(event) {
+				event.preventDefault();
+				if(videoWrapper.style.display=="flex"){
+					video.pause();
+					videoWrapper.style.display="none";
+				};
+					calendlyModal.style.opacity="1";
+					calendlyModal.style.visibility="visible";
+			});
+
+		});
+
+		let calendlyModalContainer = document.getElementsByClassName("caledlyModal_container")[0];	
+		let calendlyModalimgWr = document.getElementsByClassName("caledlyModal__imgWrapper")[0];		
+		let closeCalendly = document.getElementById("closeCalendly");
+		let returnHref = document.getElementById("return-href");
+		calendlyModalContainer.addEventListener('click',function(e) {
+			if (e.target == calendlyModalContainer || e.target == calendlyModalimgWr || e.target == closeCalendly || e.target == returnHref) {
+				calendlyModal.style.opacity = "0";
+				calendlyModal.style.visibility="hidden";
+			}
+		});
+		
+		function openWidget(){
+			event.preventDefault();
+			const contentFormWrapper = document.getElementById("caledlyPopup_form__wrapper");	
+			const wrapper = document.getElementById("caledlyPopup_form");
+			let calendlyDuration;
+			let radios = document.getElementsByName('calendlyDur');
+	
+			for (var i = 0, length = radios.length; i < length; i++) {
+			  if (radios[i].checked) {
+				calendlyDuration = radios[i].value;			
+			  }
+			};
+				const calendlyEmail = document.getElementById('caledlyEmail').value;
+				const calendlyPhone = document.getElementById('caledlyTel').value;
+				const calendlyName = document.getElementById('caledlyName').value;
+			
+			contentFormWrapper.style.display="none";
+			
+				let calendlyWidget = document.createElement("div");
+	
+			calendlyWidget.classList.add("calendly-inline-widget");
+			calendlyWidget.dataset.url = "https://calendly.com/brody-ai/"+calendlyDuration+"min/?name="+calendlyName+"&email="+calendlyEmail+"&a1="+calendlyPhone+"&primary_color=3C31C8";			
+			calendlyWidget.style.display="flex";	
+			calendlyWidget.style.width="100%";
+			calendlyWidget.style.height="100%";
+			
+			let scriptW = document.createElement("script");
+			scriptW.setAttribute("type", "text/javascript");
+			scriptW.setAttribute("src", "https://assets.calendly.com/assets/external/widget.js");
+			
+			calendlyWidget.appendChild(scriptW);
+			wrapper.appendChild(calendlyWidget);
+		};	
+		
+		function openCalendlyFooter(){
+			event.preventDefault();
+			const caledlyFooterForm = document.getElementById('caledlyFooter_form');
+			let caledlyWrapper = document.getElementById('caledlyFooter_form-wrapper');
+
+			let calendlyDurationFooter;
+			let radios = document.getElementsByName('calendlyDurFooter');
+
+			for (var i = 0, length = radios.length; i < length; i++) {
+			  if (radios[i].checked) {
+				calendlyDurationFooter = radios[i].value;			
+			  }
+			};
+			const calendlyNameFooter = document.getElementById('caledlyNameFooter').value;
+			const calendlyPhoneFooter = document.getElementById('caledlyTelFooter').value;
+			const calendlyEmailFooter = document.getElementById('caledlyEmailFooter').value;
+
+			caledlyFooterForm.style.display="none";
+
+				let calendlyWidgetFooter = document.createElement("div");
+
+			calendlyWidgetFooter.classList.add("calendly-inline-widget");
+			calendlyWidgetFooter.dataset.url = "https://calendly.com/brody-ai/"+calendlyDurationFooter+"min/?name="+calendlyNameFooter+"&email="+calendlyEmailFooter+"&a1="+calendlyPhoneFooter+"&primary_color=3C31C8";			
+			calendlyWidgetFooter.style.display="flex";	
+			calendlyWidgetFooter.style.width="100%";
+			calendlyWidgetFooter.style.height="890px";
+
+			let scriptW2 = document.createElement("script");
+			scriptW2.setAttribute("type", "text/javascript");
+			scriptW2.setAttribute("src", "https://assets.calendly.com/assets/external/widget.js");
+
+			calendlyWidgetFooter.appendChild(scriptW2);
+			caledlyWrapper.appendChild(calendlyWidgetFooter);
+		}
+	</script>
+</body>
+
+</html>

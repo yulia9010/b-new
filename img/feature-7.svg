@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 60 62.8" version="1.1" viewBox="0 0 60 62.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#a);}
+</style>
+<title>Asset 9</title>
+<path class="st0" d="m31 12.9v15.3h-2v-15.3 1.7-7.8l-6.2 8.5-1.5-1.7 8.7-12 9.2 11.3-1.4 1.9-6.8-8.5v8.3"/>
+<linearGradient id="a" x1="20.068" x2="39.908" y1="811.56" y2="831.41" gradientTransform="translate(0 -780)" gradientUnits="userSpaceOnUse">
+	<stop stop-color="#5A6CF1" offset="0"/>
+	<stop stop-color="#3C31C8" offset="1"/>
+</linearGradient>
+<path class="st1" d="m30 32.1c5.1 0 9.3 4.2 9.3 9.3s-4.2 9.3-9.3 9.3-9.3-4.2-9.3-9.3 4.2-9.3 9.3-9.3zm0 23.4c7.7 0 14-6.3 14-14s-6.3-14-14-14-14 6.3-14 14 6.3 14 14 14z"/>
+<rect class="st0" y="60.8" width="60" height="2"/>
+</svg>
